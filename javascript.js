@@ -130,7 +130,7 @@ for (var i = min; i <= max; i++)
 }
 
 //3.
-var number = parseInt(prompt("Введіть число для перевірки:"));
+var number = parseInt(prompt("Enter num for check: "));
 var isPrime = true;
 for (var i = 2; i <= Math.sqrt(number); i++) 
 {
